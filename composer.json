@@ -1,0 +1,30 @@
+{
+  "name" : "e-commerce-passaro/avancado-form",
+  "description" : "This library it's a utility to build an avancado zend form",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/avancado-form",
+  "time":"2017-04-26 16:19:01",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/acesso/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/acesso/wiki",
+  	"source":"https://github.com/e-commerce-passaro/acesso/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+	"zendframework/zend-form" : "2.10.0"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "avancado-form" ],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\AvancadoForm\\": "./src/AvancadoForm"
+        }
+  }
+}
